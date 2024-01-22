@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVE avalanche</title>
+    <link rel="stylesheet" href="avalanche.CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cabeçalho">
+        <img src="MOVElogo.png" alt="imagem da logo MOVE" class="logo">
+        <h1>move</h1>
+    </div>
+    <form method="POST" action="" enctype="multipart/form-data">
+        <fieldset id="acampante">
+            <legend>Informações do acampante</legend>
+            <label>
+                Primeiro nome:<br />
+                <input type="text" name="name" class="input">
+            </label><br />
+            <label>
+                Sobrenome:<br />
+                <input type="text" name="lastname"  class="input">
+            </label><br />
+            <label>
+                Idade do acampante:<br />
+                <select name="idade" required  class="input">
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="20+">20+</option>
+                    <option selected disabled value="">selecione</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset id="responsavel">
+            <legend>Informações do responsável</legend>
+            <label>
+                Primeiro nome:<br />
+                <input type="text" name="name"  class="input">
+            </label><br />
+            <label>
+                Sobrenome:<br />
+                <input type="text" name="lastname"  class="input">
+            </label><br />
+            <label>
+                Autorização do responsável:<br />
+                <input type="file"  class="input" accept="application/pdf" value="pdf" name="autorização">
+            </label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
