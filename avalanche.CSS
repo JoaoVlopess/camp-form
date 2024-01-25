@@ -5,7 +5,7 @@ body{
     margin: 0%;
     background-color: rgb(241, 241, 249);
 }
-.cabeçalho{
+header{
     width: 100%;
     height: 100px;
     background-color: rgb(20, 20, 92);
@@ -15,29 +15,33 @@ body{
     width: 90px;
     height: 90px;
 }
+
+main h1{
+    color: #000;
+    font-weight: normal;
+}
 h1{
-    font-family: 'Salsa', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
     color: #FFF;
 }
-input[type=text], select{
-    width: 250px;
-    height: 30px;
-}
 legend{
     font-size: 20px;
+    margin-left: 26%;
+
 }
 fieldset{
     background-color:rgb(241, 241, 249);
-    border: solid 1px;
-    border-radius: 20px;
     border: 0px;
-    margin-left: 25%;
+    margin-left: 20%;
     display: flex;
     margin-top: 20px;
     
 }
 .input{
+    width: 250px;
+    height: 30px;
     border: solid 1px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #000;
@@ -45,4 +49,14 @@ fieldset{
 label{
     margin: 10px;
 }
-
+textarea{
+    border: solid 1px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #000;
+}
+#camper2{
+    margin-top: 1px;
+}
+.responsible{
+    
+}
