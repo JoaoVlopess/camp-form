@@ -8,80 +8,86 @@
     <link rel="stylesheet" href="avalanche.CSS" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
+<div class="page">
 
-<body>
-   <header>
-        <img src="MOVElogo.png" alt="imagem da logo MOVE" class="logo">
-        <h1>HORIZON QUEST</h1>
-    </header>
-    <main>
-        <div class="title">
-        <h1>Cadastro para o acampamento HORIZON 2024!</h1>
-        </div>
-    <form method="POST" action="" enctype="multipart/form-data">
-        <fieldset id="camper">
-            <legend>Informações do acampante:</legend>
-            <label>
-                Primeiro nome:<br />
-                <input type="text" name="name" placeholder="Primeiro Nome" class="input">
-            </label><br />
-            <label>
-                Sobrenome:<br />
-                <input type="text" name="lastname" placeholder="Sobrenome" class="input">
-            </label><br />
-            <label>
-                Idade do acampante:<br />
-                <select name="age" required class="input">
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="20+">20+</option>
-                    <option selected disabled value="">selecione</option>
-                </select>
-            </label>
-        </fieldset>
-        <fieldset id="camper2">
-            <label>
-                Email:<br />
-                <input type="email" name="lastname" placeholder="Email" class="input">
-            </label>
-            <label>
-                Sexo:<br />
-                <select name="age" required class="input">
-                    <option value="Masculine">Masculino</option>
-                    <option value="Feminine">Feminino</option>
-                    <option value="Other">Outro</option>
-                    <option selected disabled value="">selecione</option>
-                </select>
-            </label>
-            <label>
-                Apresenta alguma alergia?<br />
-                <textarea name="alelergy" id="alergia" cols="31" rows="4"></textarea>
-            </label>
+    <body>
+        <header>
+            <img src="MOVElogo.png" alt="imagem da logo MOVE" class="logo">
+            <h1>HORIZON QUEST</h1>
+        </header>
+        <main>
+            <div class="title">
+                <h1>Cadastro para o acampamento HORIZON 2024!</h1>
+            </div>
+            <form method="POST" action="" enctype="multipart/form-data">
+                <fieldset id="camper">
+                    <legend>Informações do acampante:</legend>
+                    <label>
+                        Primeiro nome:<br />
+                        <input type="text" name="name" placeholder="Primeiro Nome" class="input">
+                    </label><br />
+                    <label>
+                        Sobrenome:<br />
+                        <input type="text" name="lastname" placeholder="Sobrenome" class="input">
+                    </label><br />
+                    <label>
+                        Idade do acampante:<br />
+                        <select name="age" required class="input">
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="20+">20+</option>
+                            <option selected disabled value="">selecione</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset id="camper2">
+                    <label>
+                        Email:<br />
+                        <input type="email" name="lastname" placeholder="Email" class="input">
+                    </label>
+                    <label>
+                        Sexo:<br />
+                        <select name="age" required class="input">
+                            <option value="Masculine">Masculino</option>
+                            <option value="Feminine">Feminino</option>
+                            <option value="Other">Outro</option>
+                            <option selected disabled value="">selecione</option>
+                        </select>
+                    </label>
+                    <label>
+                        Apresenta alguma alergia?<br />
+                        <textarea name="alelergy" id="alergia" cols="31" rows="4"></textarea>
+                    </label>
 
-        </fieldset>
-        <fieldset id="responsible">
-            <legend>Informações do responsável:</legend>
-            <label>
-                Primeiro Nome:<br />
-                <input type="text" name="name" placeholder="Primeiro Nome" class="input">
-            </label><br />
-            <label>
-                Sobrenome:<br />
-                <input type="text" name="lastname" placeholder="Sobrenome" class="input">
-            </label><br />
-            <label>
-                Autorização do responsável:<br />
-                <input type="file" class="input" accept="application/pdf" value="pdf" name="autorização">
-            </label>
-        </fieldset>
-    </form>
-</main>
-</body>
+                </fieldset>
+                <fieldset id="responsible">
+                    <legend>Informações do responsável:</legend>
+                    <label>
+                        Primeiro Nome:<br />
+                        <input type="text" name="name" placeholder="Primeiro Nome" class="input">
+                    </label><br />
+                    <label>
+                        Sobrenome:<br />
+                        <input type="text" name="lastname" placeholder="Sobrenome" class="input">
+                    </label><br />
+                    <label>
+                        Autorização do responsável:<br />
+                        <input type="file" class="input" accept="application/pdf" value="pdf" name="autorização">
+                    </label>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</div>
 
 </html>

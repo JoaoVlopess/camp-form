@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 body{
     margin: 0%;
@@ -15,20 +17,24 @@ header{
     width: 90px;
     height: 90px;
 }
-
-main h1{
-    color: #000;
-    font-weight: normal;
-}
 h1{
     font-family: 'Poppins', sans-serif;
     font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
     color: #FFF;
 }
+main h1{
+    color: #000;
+    font-weight: normal;
+}
+header h1{
+    padding-top: 24px;
+}
 legend{
     font-size: 20px;
-    margin-left: 26%;
+    margin-left: 24%;
+    font-family: 'Poppins', sans-serif;
+  
 
 }
 fieldset{
@@ -37,6 +43,7 @@ fieldset{
     margin-left: 20%;
     display: flex;
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .input{
@@ -45,6 +52,7 @@ fieldset{
     border: solid 1px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #000;
+    font-family: 'Poppins', sans-serif;
 }
 label{
     margin: 10px;
@@ -53,6 +61,7 @@ textarea{
     border: solid 1px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #000;
+    resize: none;
 }
 #camper2{
     margin-top: 1px;
