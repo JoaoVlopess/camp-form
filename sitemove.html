@@ -30,7 +30,7 @@
                     <legend>Informações do acampante:</legend>
                     <label>
                         Primeiro nome:<br />
-                        <input type="text" name="name" placeholder="Primeiro Nome" class="input">
+                        <input type="text" name="name" placeholder="Primeiro Nome" class="input" autofocus>
                     </label><br />
                     <label>
                         Sobrenome:<br />
@@ -80,13 +80,14 @@
                         Sobrenome:<br />
                         <input type="text" name="lastname" placeholder="Sobrenome" class="input">
                     </label><br />
-                    <label>
-                        Autorização do responsável:<br />
+                    <label class="file">
                         <input type="file" class="input" accept="application/pdf" value="pdf" name="autorização">
+                        <span class="filemsg">Escolha o arquivo</span>
                     </label>
-                </fieldset>
+                    </fieldset>
             </form>
         </main>
+        <footer></footer>
     </body>
 </div>
 
